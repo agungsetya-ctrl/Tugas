@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Bab2Activity">
+
+    <TextView
+        android:id="@+id/enim"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="5dp"
+        android:text="NIM"
+        android:textColor="#0E0D0D"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/enama"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/enim"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="5dp"
+        android:text="NAMA"
+        android:textColor="#FD0A0A0A"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/enilai"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/enama"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="5dp"
+        android:text="NILAI"
+        android:textColor="#E91E63"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/keterangan"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/enilai"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="5dp"
+        android:text="KETERANGAN"
+        android:textColor="#E91E63"
+        android:textSize="18dp" />
+
+    <TextView
+        android:id="@+id/nime"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_toRightOf="@id/enim"
+        android:textColor="#F80E0D0D"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/nime"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_toRightOf="@id/enama"
+        android:textColor="#FA0A0A0A"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/nilaie"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/name"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_toRightOf="@id/enilai"
+        android:textColor="#E91E63"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/keterangane"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/nilaie"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_toRightOf="@id/keterangan"
+        android:textColor="#E91E63"
+        android:textSize="24dp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        app:srcCompat="@mipmap/gasken" />
+
+</RelativeLayout>
